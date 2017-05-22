@@ -23,4 +23,4 @@ You can check the demo [here](https://www.msuflaj.net/projects/that-thing/).
 Further plans
 -----------------------
 
-I may play with it in the future since I quite like it. I may add some printing and other net functionality depending on my spare time. Also better site responsiveness would be cool.
+I may play with it in the future since I quite like it. I may add some printing and other neat functionality depending on my spare time. Also better site responsiveness would be cool.
