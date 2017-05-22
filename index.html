@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"
+            integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <script src="./assets/js/fit.js"></script>
+    <script src="./assets/js/main.js"></script>
+</head>
+
+<body>
+
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-2">
+                <h1>&quot;That thing&quot;</h1>
+            </div>
+        </div>
+
+        <hr>
+
+
+        <div class="row">
+            <div class="col-md-5 col-md-offset-2">
+                <p>Your text please (you can use custom CSS/HTML) and it will be displayed fitted on the right</p>
+
+                <form>
+                    <div class="form-group">
+                        <textarea title="Input" id="input-area" class="form-control text-nowrap" rows="10">This is a &lt;b&gt;demo&lt;/b&gt;
+of &lt;em style=&quot;color: orangered;&quot;&gt;how you&lt;/em&gt; can fit
+&lt;span style=&quot;font-family: monospace;&quot;&gt;lines and make&lt;/span&gt;
+&quot;that thing&quot;
+using &lt;span style=&quot;font-size: 2em; font-weight: bold; color: dodgerblue;&quot;&gt;binary search&lt;/span&gt; and
+CSS &amp; HTML</textarea>
+                    </div>
+                </form>
+                <p><strong>Note 1</strong> - it may (but really shouldn't) end up in an infinite loop if width has oscillations in respect to the font size. If you do find such a case, please let me know since I'm quite interested if such case even exists</p>
+                <p><strong>Note 2</strong> - empty lines are skipped</p>
+            </div>
+
+            <div class="col-md-3">
+                <div id="container"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
